@@ -1,3 +1,5 @@
+##Function to guess numbers. Uses 'random' library
+
 def lottery(num):
     x = int(input("Enter a number from 1 to 500:\n"))
     if x == num:
