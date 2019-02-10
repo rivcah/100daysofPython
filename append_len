@@ -1,0 +1,5 @@
+#This function appends the size of the list to the list itself.
+
+def append_size(lst):
+	lst.append(len(lst))
+	return(lst)
