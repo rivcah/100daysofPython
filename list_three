@@ -1,0 +1,5 @@
+#This function creates a lists from strat to 100 (inclusive in steps of three.
+
+def every_three_nums(start):
+  n_list = list(range(start, 101, 3))
+  return(n_list)
