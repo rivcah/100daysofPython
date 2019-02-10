@@ -1,0 +1,5 @@
+#This function takes two lists, combine and sort them.
+def combine_sort(lst1, lst2):
+	lst = lst1+lst2
+	s_lst = sorted(lst)
+	return(s_lst)
