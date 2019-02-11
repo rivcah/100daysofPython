@@ -1,0 +1,9 @@
+single_digits = list(range(10))
+squares = list()
+cubes = list()
+for digit in single_digits:
+  print(digit)
+  squares.append(digit**2)
+  cubes.append(digit**3)
+print(squares)
+print(cubes)
