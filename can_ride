@@ -1,0 +1,8 @@
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+can_ride_coaster = list()
+for height in heights:
+  if height < 161:
+    continue
+  else:
+    can_ride_coaster.append(height)
+print(can_ride_coaster)
