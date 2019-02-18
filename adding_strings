@@ -1,0 +1,9 @@
+##Function written for the Computer Science course from the CodeAcademy.
+##This function works with strings and lists.
+
+def add_greetings(names):
+	greetings = list()
+	greeting = "Hello, "
+	for name in names:
+		greetings.append(greeting+name)
+	return(greetings)
