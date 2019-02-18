@@ -1,0 +1,7 @@
+##Function to unpack a tuple.
+def unpack(your_info):
+	name, age, occupation, hobby = your_info
+	print('Your name is {}.'.format(name))
+	print('You are {} years old.'.format(age))
+	print('You are a/an {} by profession.'.format(occupation))
+	print('{} is what you do in your spare time.'.format(hobby.capitalize()))
