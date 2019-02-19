@@ -1,0 +1,7 @@
+##This function takes odd-numbered items and stores it in a new list. 
+
+def odd_indices(lst):
+	nlst = list()
+	for index in range(1, len(lst), 2):
+		nlst.append(lst[index])
+	return(nlst)
