@@ -1,0 +1,10 @@
+##This function sums the items of a function until it reaches over 9000 for the first time.
+
+def over_nine_thousand(lst):
+	sum_items = 0
+	for i in range(len(lst)):
+		if sum_items > 9000:
+			break
+		else:
+			sum_items += lst[i]
+	return(sum_items)
